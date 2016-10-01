@@ -1,4 +1,5 @@
 ---
 applications:
-- name: image-gallery-0.1.0
-  path: ./build/libs
+- name: cllofty-image-gallery-0.1.0
+  path: ./build/libs/image-gallery-0.1.0.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
